@@ -10,7 +10,6 @@ jobs:
   data_test:
     runs-on: ubuntu-latest
     container: python:3.12
-    needs: branch_test
 
     steps:
       - name: Checkout code
